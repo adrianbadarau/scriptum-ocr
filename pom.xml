@@ -336,6 +336,20 @@
             <scope>test</scope>
         </dependency>
         <!-- jhipster-needle-maven-add-dependency -->
+
+        <!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
+        <dependency>
+            <groupId>net.sourceforge.tess4j</groupId>
+            <artifactId>tess4j</artifactId>
+            <version>4.5.1</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.asprise.ocr</groupId>-->
+<!--            <artifactId>java-ocr-api</artifactId>-->
+<!--            <version>[15,)</version>-->
+<!--        </dependency>-->
+
     </dependencies>
 
     <build>
@@ -345,7 +359,7 @@
         <testSourceDirectory>src/test/kotlin</testSourceDirectory>
 
         <plugins>
-            
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -478,7 +492,7 @@
                                     <artifactId>mapstruct-processor</artifactId>
                                     <version>${mapstruct.version}</version>
                                 </path>
-                                
+
                             </annotationProcessorPaths>
                         </configuration>
                     </execution>
@@ -522,7 +536,7 @@
                         <artifactId>kotlin-maven-allopen</artifactId>
                         <version>${kotlin.version}</version>
                     </dependency>
-                    
+
                 </dependencies>
             </plugin>
             <plugin>

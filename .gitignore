@@ -3,6 +3,7 @@
 ######################
 /target/classes/static/**
 /src/test/javascript/coverage/
+/src/main/resources/static/tessdata
 
 ######################
 # Node

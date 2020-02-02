@@ -111,3 +111,6 @@ jhipster:
 # ===================================================================
 
 # application:
+app:
+  upload-dir: "D://kotlin//scriptum//ocr-service//temp//"
+  tessdata-dir: "D://kotlin//scriptum//ocr-service//src//main//resources//static//tessdata"
