@@ -1,0 +1,53 @@
+{
+  "generator-jhipster-kotlin": {
+    "promptValues": {
+      "packageName": "com.adrianb.scriptum.ocr"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "microservice",
+    "baseName": "ocrservice",
+    "packageName": "com.adrianb.scriptum.ocr",
+    "packageFolder": "com/adrianb/scriptum/ocr",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Njc3MDYyOWIwZWYyMGZjYWQ3NWJiODRkNTg3NzdiY2E3NzVmYzNmOTNmODZiODczNGY4Y2IwZmQ3YmQ0MWEwOTc2MzljZDk3OTQyMGY5YzczYmJiMzA3NTQzOTgwZTM5ZDliZWVjZjYzODcyY2UyNjRkN2YxOTkyNDNhNDVlMzg=",
+    "embeddableLaunchScript": false
+  },
+  "generator-jhipster": {
+    "jhipsterVersion": "6.6.0",
+    "creationTimestamp": 1580550649159,
+    "applicationType": "microservice",
+    "baseName": "ocrservice",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.4.0"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.4.0"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
